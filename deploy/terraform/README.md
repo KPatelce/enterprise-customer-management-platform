@@ -118,11 +118,3 @@ terraform destroy
 In `prod` this refuses until `db_deletion_protection` and `alb_deletion_protection` are set to
 `false`, and it takes a final RDS snapshot. Secrets have a 30-day recovery window in `prod` and
 zero elsewhere, so a destroy/apply cycle in staging does not collide with a scheduled deletion.
-
-## Maintainer
-
-Maintained by Dev Bhatt, a data analyst with 6+ years of professional experience in data
-solutions, analytics, risk indicators, controls and automation.
-
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)

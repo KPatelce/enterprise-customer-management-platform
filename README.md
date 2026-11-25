@@ -4,8 +4,6 @@ A B2B CRM - accounts, contacts, interactions and a deal pipeline with four-role 
 built as a Spring Boot 3.3 / Java 21 API, a React 18 + TypeScript SPA, MySQL 8, and Terraform for
 AWS ECS Fargate.
 
-[![CI](https://github.com/SlateGitOrg/enterprise-customer-management-platform/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlateGitOrg/enterprise-customer-management-platform/actions/workflows/ci.yml)
-
 ![Enterprise Customer Management Platform](docs/banner.png)
 
 ## Why
@@ -268,7 +266,7 @@ scaling path - is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 ### Option A: the whole stack with Docker Compose
 
 ```bash
-git clone https://github.com/SlateGitOrg/enterprise-customer-management-platform.git
+git clone https://github.com/KPatelce/enterprise-customer-management-platform.git
 cd enterprise-customer-management-platform
 
 cp .env.example .env          # local defaults; set JWT_SECRET to 32+ random characters for anything real
@@ -709,9 +707,6 @@ MIT - see [LICENSE](LICENSE).
 
 ## Maintainer
 
-Dev Bhatt maintains this project, with a focus on reliable data workflows, automation, controls,
-and analytics. Dev has 6+ years of professional experience building pipelines and reporting
-solutions, including risk indicator tracking and reconciliation at scale.
+Maintained by **Kashish Patel**, Senior Software Engineer and Technical Lead.
 
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
+For project inquiries, contact [kashish.patel@belvionus.com](mailto:kashish.patel@belvionus.com).

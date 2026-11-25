@@ -14,7 +14,7 @@ info:
     generated spec at `/v3/api-docs`, which is the authority if the two ever disagree.
   contact:
     name: enterprise-customer-management-platform contributors
-    url: https://github.com/SlateGitOrg/enterprise-customer-management-platform
+    url: https://github.com/KPatelce/enterprise-customer-management-platform
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT

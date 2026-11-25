@@ -34,7 +34,7 @@ public class OpenApiConfig {
                                 bearer access token obtained from POST /api/v1/auth/login.""")
                         .contact(new Contact()
                                 .name("enterprise-customer-management-platform contributors")
-                                .url("https://github.com/SlateGitOrg/enterprise-customer-management-platform"))
+                                .url("https://github.com/KPatelce/enterprise-customer-management-platform"))
                         .license(new License().name("MIT").url("https://opensource.org/licenses/MIT")))
                 .servers(List.of(
                         new Server().url("http://localhost:8080").description("Local"),

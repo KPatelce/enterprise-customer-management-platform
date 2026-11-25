@@ -54,7 +54,7 @@ locals {
     Environment = var.environment
     ManagedBy   = "terraform"
     Owner       = var.owner
-    Repository  = "github.com/SlateGitOrg/enterprise-customer-management-platform"
+    Repository  = "github.com/KPatelce/enterprise-customer-management-platform"
   }
 
   account_id = data.aws_caller_identity.current.account_id
